@@ -10,6 +10,13 @@ header{
   text-align: center;
 }
 
+#image-background{
+  background-image: url(../img/mountain.svg);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: right;
+}
+
 .header-top{
   height: 60px;
 }
