@@ -80,14 +80,14 @@ margin: 0 10px;
   font-size: 40px;
   left: 90px;
   top: 100px;
-  width: 400px;
+  width: 380px;
 }
 
 .font3{
   position: absolute;
   border: 1px solid white;
   border-radius: 10px;
-  padding: 5px;
+  padding: 3px;
   background-color: green;
   left: 80px;
   top: 208px;
