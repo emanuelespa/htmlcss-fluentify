@@ -19,7 +19,7 @@ header{
 }
 
 .menu-inline li{
-  display: inline block;
+  display: inline-block;
 }
 
 .header-top-logo{
@@ -33,18 +33,28 @@ header{
   width: 40%;
 }
 
+.header-top::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .header-top-nav-right{
   float: left;
   width: 40%;
-  background-color: green;
+  text-align: right;
 }
 
-.header-top-nav-left li a{
+.header-top li a{
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
 }
+.header-top li a{
+margin: 0 10px;
+}
 
-.header-top-nav-left li{
-  margin: 0 10px;
+.header-top{
+ height: 60px;
+ line-height: 60px;
 }
